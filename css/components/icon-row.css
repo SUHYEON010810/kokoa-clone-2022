@@ -1,0 +1,38 @@
+.icon-row{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+}
+
+.icon-row__icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-row__icon i{
+    font-size: 35px;
+}
+
+.icon-row__icon span{
+    margin-top: 18px;
+}
+
+.icon-row_2{
+    display: flex;
+}
+
+.icon-row__icon_2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 35px;
+}
+
+.icon-row__icon_2 i{
+    font-size: 35px;
+}
+
+.icon-row__icon_2 span{
+    margin-top: 18px;
+}

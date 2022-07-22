@@ -1,0 +1,24 @@
+.badge{
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    width: 22px;
+    height: 22px;
+    border-radius: 12px; /*원으로 만들고 싶으면 사각형의 너비의 반만큼 깍으면 됨.*/
+    
+}
+
+.badge_sm{
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    width: 5px;
+    height: 5px;
+    border-radius: 2.5px; /*원으로 만들고 싶으면 사각형의 너비의 반만큼 깍으면 됨.*/
+}
