@@ -1,16 +1,18 @@
 .user-component {
     justify-content: space-between;
+    margin-bottom: 25px;
 }
 .user-component,
 .user-component__column:first-child{
     display: flex;
     align-items: center;
+
 }
 
 .user-component__avatar{
     width: 60px;
     height: 60px;
-    border-radius: 30px;
+    border-radius: 25px;
     margin-right: 20px;
 }
 
@@ -21,7 +23,7 @@
 
 .user-commponent___subtitle{
     margin-top: 8px;
-    font-size: 14px;
+    font-size: 16px;
     color:rgba(0, 0, 0, 0.5);
 }
 
@@ -50,4 +52,12 @@
 .user-component__time{
     display: block;
     margin-bottom: 10px;
+}
+.user-component__column i{
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.user-component__text{
+    position: relative;
+    padding-right: 50px;
 }

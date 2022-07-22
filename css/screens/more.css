@@ -39,3 +39,31 @@
 .more-suggestions_icon-text{
     font-size: 15px;
 }
+
+.set-header__icon{
+    position: absolute;
+    right: 10px;
+    top:50px;
+}
+
+.icon_row__2col{
+    position: absolute;
+    top: 190px;
+    left: 185px;
+}
+.user_icon_{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: tomato;
+    border: 2px solid tomato;
+    font-weight: 600;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%; /*원으로 만들고 싶으면 사각형의 너비의 반만큼 깍으면 됨.*/
+    
+    position: absolute;  
+    right: 25px;
+    bottom:0.8px;
+}
