@@ -2,6 +2,10 @@
     margin-top: 35px;
 }
 
+.more-screen {
+    margin-bottom: 100px;
+}
+
 .more-suggestions{
     margin-top: 50px;
     border-top: var(--main-border);
@@ -67,3 +71,4 @@
     right: 25px;
     bottom:0.8px;
 }
+
